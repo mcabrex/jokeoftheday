@@ -4,20 +4,20 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div id="joke-container">
+        <h1 id="name">JOKE GENERATOR</h1>
+        <img id="clown-img" src="https://c8.alamy.com/comp/M4MCPC/funny-clown-with-a-gun-pistol-isolated-on-white-background-M4MCPC.jpg" />
+        <div id="description">
+          Jokes on you!
+        </div>
+        <button class="btn oauth">
+          Sign in to Facebook
+        </button>
+        {/* fake loading spinner */}
+        {/* text doc for generator*/}
+        {/*ouath to facebook  */}
+      </div>
+
     </div>
   );
 }
