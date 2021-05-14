@@ -1,0 +1,70 @@
+#description {
+  margin: 1rem;
+}
+.stage {
+  border-bottom: 3px solid #444;
+  display: flex;
+  height: 330px;
+  width: 100%;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+.pulse-1 {
+  animation: pulse 2s infinite cubic-bezier(0.41, -0.03, 1, 1.05);
+}
+.pulse-2 {
+  animation: pulse 2s infinite cubic-bezier(0.41, -0.03, 1, 1.05);
+  animation-delay: 0.2s;
+}
+.pulse-3 {
+  animation: pulse 2s infinite cubic-bezier(0.41, -0.03, 1, 1.05);
+  animation-delay: 0.4s;
+}
+.pulse-4 {
+  animation: pulse 2s infinite cubic-bezier(0.41, -0.03, 1, 1.05);
+  animation-delay: 0.6s;
+}
+.pulse-5 {
+  animation: pulse 2s infinite cubic-bezier(0.41, -0.03, 1, 1.05);
+  animation-delay: 0.8s;
+}
+.pulse-6 {
+  animation: pulse 2s infinite cubic-bezier(0.41, -0.03, 1, 1.05);
+  animation-delay: 1s;
+}
+
+.shift-opacity {
+  margin: 0.25rem;
+  font-size: 1.5rem;
+  animation: shift-opacity 2s cubic-bezier(0.41, -0.03, 1, 1.05);
+  animation-iteration-count: 1;
+}
+
+@keyframes shift-opacity {
+ 0% {
+   opacity: 0;
+ }
+ 100%{
+   opacity: 1;
+ }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(0.75);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  75%{
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
