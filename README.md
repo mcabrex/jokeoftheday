@@ -8,7 +8,7 @@ In the project directory, you can run:
 ### `npm run deploy`
 
 The App is run on github
-Push changes to main branch then switch to gh-pages branch and run the command to deploy the changes, might take some time to see deployed changes in effect due to latency. 
+Push changes to main branch then run the command which will deploy the changes to the gh-pages branch which is what the github page is using to run. It might take some time to see deployed changes in effect due to latency. 
 
 Open [https://mcabrex.github.io/jokeoftheday/](https://mcabrex.github.io/jokeoftheday/) to view it live
 
