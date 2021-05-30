@@ -1,0 +1,16 @@
+.about {
+    height: 80vh;
+    padding: 10vh 5vw;
+    background-color: #4361ee;
+    color: #000000;
+}
+  
+.about-content {
+    width: 50vh;
+    float: right;
+}
+
+.about-img {
+    float:left;
+    width: 37.5vw;
+}

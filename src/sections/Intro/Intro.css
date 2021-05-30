@@ -1,0 +1,15 @@
+.intro {
+    height: 80vh;
+    padding: 10vh 5vw;
+    color: #000000;
+}
+
+.intro-content{
+    float:left;
+    width: 37.5vw;
+}
+
+.intro-img {
+    width: 50vh;
+    float: right;
+}
