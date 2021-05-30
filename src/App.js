@@ -1,5 +1,5 @@
 import './App.css';
-import {Intro,AboutUs} from './sections'
+import {Intro,AboutUs,HowItWorks} from './sections'
 
 function App() {
 
@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <Intro />
       <AboutUs />
+      <HowItWorks />
     </div>
   );
 }

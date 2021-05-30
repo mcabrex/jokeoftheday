@@ -1,8 +1,10 @@
 import './AboutUs.css'
+import company from './company.svg'
 
 const AboutUs = (params) => {
     return (
         <div className="about">
+            <img className="about-img" src={company} />
             <div className="about-content">
             <h1 className="name">What We're About</h1>
             <p className="description">
