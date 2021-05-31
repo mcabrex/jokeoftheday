@@ -1,16 +1,22 @@
 .about {
-    height: 80vh;
-    padding: 10vh 5vw;
-    background-color: #4361ee;
-    color: #000000;
+    height: 40vh;
+    padding: 5vh 5vw;
+    background-color: var(--color-3);
+    color: var(--color-4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
   
 .about-content {
-    width: 50vh;
-    float: right;
+    width: 70vh;
+    padding: 5vh;
 }
 
 .about-img {
-    float:left;
     width: 37.5vw;
+}
+
+.about-name {
+    color: var(--color-2);
 }

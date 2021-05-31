@@ -12,17 +12,17 @@ const Intro = (params) => {
 
     return (
         <div className="intro">
-            <img className="intro-img" src={smiling} />
             <div className="intro-content">
-            <h1 className="name">Joke Of The Day</h1>
-            <p>Using social media to create a personalized experience!</p>
-            <FacebookLogin
+            <h1 className="intro-name">Joke Of The Day</h1>
+            <p>Using data driven science to create the perfect joke.</p>
+            {/* <FacebookLogin
                 appId={apikey}
                 autoLoad={true}
                 fields="name,email,picture"
                 callback={responseFacebook} 
-            />
+            /> */}
             </div>
+            <img className="intro-img" src={smiling} />
         </div>
     )
 }

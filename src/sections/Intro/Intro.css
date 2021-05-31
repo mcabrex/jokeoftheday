@@ -1,15 +1,17 @@
 .intro {
-    height: 80vh;
-    padding: 10vh 5vw;
-    color: #000000;
+    height: 40vh;
+    padding: 5vh 5vw;
+    color: #18191A;
+    display: flex;
+    justify-content: center;
 }
 
 .intro-content{
-    float:left;
-    width: 37.5vw;
 }
 
 .intro-img {
-    width: 50vh;
-    float: right;
+}
+
+.intro-name {
+    color: var(--color-1);
 }
