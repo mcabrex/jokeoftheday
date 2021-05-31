@@ -14,7 +14,7 @@ const AboutUs = (params) => {
                 Is it possible to tell the perfect joke?
             </p>  
             <p>
-                Through countless years of research we think we've come up with a solution. To us it's not about just telling the perfect joke, it's really about creating the ultimate experience.
+                Through countless years of research we think we've come up with a solution. To us it's not about just telling the perfect joke, it's about creating the ultimate experience.
             </p>
             </div>
         </div>
