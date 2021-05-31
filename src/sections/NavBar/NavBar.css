@@ -1,0 +1,38 @@
+nav {
+    height: 9vh;
+    box-shadow: 0px 10px 10px 0px #CCCCCC;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    height: 100%;
+    margin: auto 0;
+    padding: 0 1.5%;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: grid;
+    align-items: center;
+}
+
+.nav-about {
+    color: var(--color-3);
+}
+.nav-about:hover {
+    background-color: var(--color-2A);
+}
+
+.nav-work {
+    color: var(--color-1);
+}
+.nav-work:hover {
+    background-color: var(--color-2A);
+}
+
+.nav-started {
+    color: var(--color-2);
+}
+.nav-started:hover {
+    background-color: var(--color-2A);
+}

@@ -3,7 +3,7 @@ import company from './company.svg'
 
 const AboutUs = (params) => {
     return (
-        <div className="about">
+        <div className="about" id="about">
             <img className="about-img" src={company} />
             <div className="about-content">
             <h1 className="about-name">What We're About</h1>

@@ -1,11 +1,12 @@
 import './App.css';
-import {Intro,AboutUs,HowItWorks} from './sections'
+import {Intro,AboutUs,HowItWorks,NavBar} from './sections'
 
 function App() {
 
 
   return (
     <div className="App">
+      <NavBar />
       <Intro />
       <AboutUs />
       <HowItWorks />
