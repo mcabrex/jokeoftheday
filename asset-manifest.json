@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/jokeoftheday/static/css/main.efd7bfd9.chunk.css",
-    "main.js": "/jokeoftheday/static/js/main.736f94e3.chunk.js",
-    "main.js.map": "/jokeoftheday/static/js/main.736f94e3.chunk.js.map",
-    "runtime-main.js": "/jokeoftheday/static/js/runtime-main.ee898fa4.js",
-    "runtime-main.js.map": "/jokeoftheday/static/js/runtime-main.ee898fa4.js.map",
-    "static/js/2.9ac9a191.chunk.js": "/jokeoftheday/static/js/2.9ac9a191.chunk.js",
-    "static/js/2.9ac9a191.chunk.js.map": "/jokeoftheday/static/js/2.9ac9a191.chunk.js.map",
-    "static/js/3.128b0bc1.chunk.js": "/jokeoftheday/static/js/3.128b0bc1.chunk.js",
-    "static/js/3.128b0bc1.chunk.js.map": "/jokeoftheday/static/js/3.128b0bc1.chunk.js.map",
+    "main.css": "/jokeoftheday/static/css/main.e3a0f996.chunk.css",
+    "main.js": "/jokeoftheday/static/js/main.46e8e7bf.chunk.js",
+    "main.js.map": "/jokeoftheday/static/js/main.46e8e7bf.chunk.js.map",
+    "runtime-main.js": "/jokeoftheday/static/js/runtime-main.d272d0ec.js",
+    "runtime-main.js.map": "/jokeoftheday/static/js/runtime-main.d272d0ec.js.map",
+    "static/js/2.93b842c5.chunk.js": "/jokeoftheday/static/js/2.93b842c5.chunk.js",
+    "static/js/2.93b842c5.chunk.js.map": "/jokeoftheday/static/js/2.93b842c5.chunk.js.map",
+    "static/js/3.77b57643.chunk.js": "/jokeoftheday/static/js/3.77b57643.chunk.js",
+    "static/js/3.77b57643.chunk.js.map": "/jokeoftheday/static/js/3.77b57643.chunk.js.map",
     "index.html": "/jokeoftheday/index.html",
-    "static/css/main.efd7bfd9.chunk.css.map": "/jokeoftheday/static/css/main.efd7bfd9.chunk.css.map",
-    "static/js/2.9ac9a191.chunk.js.LICENSE.txt": "/jokeoftheday/static/js/2.9ac9a191.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/jokeoftheday/static/media/logo.6ce24c58.svg"
+    "static/css/main.e3a0f996.chunk.css.map": "/jokeoftheday/static/css/main.e3a0f996.chunk.css.map",
+    "static/js/2.93b842c5.chunk.js.LICENSE.txt": "/jokeoftheday/static/js/2.93b842c5.chunk.js.LICENSE.txt",
+    "static/media/company.32be3457.svg": "/jokeoftheday/static/media/company.32be3457.svg",
+    "static/media/data.6d4a296e.svg": "/jokeoftheday/static/media/data.6d4a296e.svg",
+    "static/media/smile.5396192a.svg": "/jokeoftheday/static/media/smile.5396192a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ee898fa4.js",
-    "static/js/2.9ac9a191.chunk.js",
-    "static/css/main.efd7bfd9.chunk.css",
-    "static/js/main.736f94e3.chunk.js"
+    "static/js/runtime-main.d272d0ec.js",
+    "static/js/2.93b842c5.chunk.js",
+    "static/css/main.e3a0f996.chunk.css",
+    "static/js/main.46e8e7bf.chunk.js"
   ]
 }
