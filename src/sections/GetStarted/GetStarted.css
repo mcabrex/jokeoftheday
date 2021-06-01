@@ -1,6 +1,6 @@
 .start {
-    height: 40vh;
-    padding: 5vh 5vw;
+    height: 100%;
+    padding: 5vh 5vw 15vh;
     background-color: var(--color-blue-a);
     color: var(--color-white);
     display: flex;
