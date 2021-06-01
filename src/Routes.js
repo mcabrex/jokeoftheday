@@ -7,18 +7,17 @@ import {
   Redirect
 } from "react-router-dom";
 import {NavBar} from './sections'
-
-
-import App from './App'
+import {Home,JokeIntro} from './Pages'
 
 const Routes = (params) => {
     return (
         <Router>
             <NavBar />
             <Switch>
-                <Route exact path="/" component={App}/>
+                <Route exact path="/thejoke" component={JokeIntro}/>
+                <Route exact path="/" component={Home}/>
                 <Route path="*">
-                    <App />
+                    <Home />
                 </Route>
             </Switch>
         </Router>

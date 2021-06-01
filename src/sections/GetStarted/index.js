@@ -1,4 +1,10 @@
 import {TextButton} from '../../textButton'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 import './GetStarted.css'
 
@@ -14,7 +20,9 @@ const GetStarted = (params) => {
         <div className="start" id="started">
             <h1>Whatever Just Give Me The Goods</h1>
             <p>Yea alright we've said enough, if you wanna see the perfect joke in action all you have to do is click the button down below to get started. Best of all, it's completely free!</p>
-            <TextButton label="Get Started!" hover="true" onClick={()=>{console.log('clicked')}}/>
+            <Link to="/thejoke">
+                <TextButton label="Get Started!" hover="true" onClick={()=>{console.log('clicked')}}/>
+            </Link>
         </div>
     )
 }
