@@ -1,0 +1,12 @@
+.button-text {
+    cursor: pointer;
+    border-style: none;
+    background-color: rgba(0,0,0,0);
+    transition: transform .2s;
+    backface-visibility: hidden;
+}
+
+.hover:hover {
+	transform: scale(1.15);
+	transition: 0.15s;
+}

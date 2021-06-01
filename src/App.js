@@ -1,5 +1,5 @@
 import './App.css';
-import {Intro,AboutUs,HowItWorks,NavBar} from './sections'
+import {Intro,AboutUs,HowItWorks,NavBar,GetStarted} from './sections'
 
 function App() {
 
@@ -10,6 +10,7 @@ function App() {
       <Intro />
       <AboutUs />
       <HowItWorks />
+      <GetStarted />
     </div>
   );
 }
