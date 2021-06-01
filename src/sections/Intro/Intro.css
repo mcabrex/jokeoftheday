@@ -1,7 +1,7 @@
 .intro {
     height: 40vh;
     padding: 5vh 5vw;
-    color: var(--color-5);
+    color: var(--color-black);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,5 +18,5 @@
 }
 
 .intro-name {
-    color: var(--color-1);
+    color: var(--color-pink-a);
 }

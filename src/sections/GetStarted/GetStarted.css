@@ -1,8 +1,8 @@
 .start {
     height: 40vh;
     padding: 5vh 5vw;
-    background-color: var(--color-3);
-    color: var(--color-4);
+    background-color: var(--color-blue-a);
+    color: var(--color-white);
     display: flex;
     justify-content: start;
     align-items: center;

@@ -1,12 +1,12 @@
 :root {
-    --color-1: #f72585;
-    --color-1A: #ff92f0;
-    --color-2: #4cc9f0;
-    --color-2A: #8ce4ff;
-    --color-3: #4361ee;
-    --color-3A:rgb(125, 149, 255);
-    --color-4: #e6e6e6;
-    --color-5: #18191A;
+    --color-pink-a: #f72585;
+    --color-pink-b: #ff92f0;
+    --color-lightblue-a: #4cc9f0;
+    --color-lightblue-b: #8ce4ff;
+    --color-blue-a: #4361ee;
+    --color-blue-b:rgb(125, 149, 255);
+    --color-white: #e6e6e6;
+    --color-black: #18191A;
 }
 
 .quote {

@@ -14,16 +14,16 @@ nav a {
     font-weight: bold;
     display: grid;
     align-items: center;
-    color: var(--color-5)
+    color: var(--color-black)
 }
 
 
 .nav-about:hover {
-    color: var(--color-1);
+    color: var(--color-pink-a);
 }
 .nav-work:hover {
-    color: var(--color-1);
+    color: var(--color-pink-a);
 }
 .nav-started:hover {
-    color: var(--color-1);
+    color: var(--color-pink-a);
 }
