@@ -1,11 +1,13 @@
 nav {
     padding: 12.5px;
-    box-shadow: 0px 5px 5px 0px #b4b4b4;
     background-color: var(--color-pink-a);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;    
 }
 
 nav li a {
-    margin: auto 0;
     padding: 5px 7.5px;
     font-size: 1.25rem;
     text-decoration: none;
