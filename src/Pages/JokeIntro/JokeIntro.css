@@ -1,0 +1,24 @@
+.joke-content {
+    margin: 5vh 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.joke-content h1 {
+    color: var(--color-pink-a);
+    font-size: 2.25rem;
+    text-align: center;
+    width: 50%;
+}
+
+.joke-content p {
+    text-align: center;
+    padding: 0 2.5vh;
+    width: 75%;
+}
+
+.joke-content img {
+    height: 30vh;
+}

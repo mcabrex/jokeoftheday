@@ -9,7 +9,7 @@
 }
   
 .about-content {
-    padding: 2.5vh;
+    margin: 5vh;
     width: 30vw;
     max-height: 100%;
     overflow: auto;

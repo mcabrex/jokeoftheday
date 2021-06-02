@@ -10,6 +10,7 @@
 }
 
 .start h1 {
+    margin: 0;
     width: 45%;
     text-align: center;
 }

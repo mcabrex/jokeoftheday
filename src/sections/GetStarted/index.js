@@ -1,21 +1,9 @@
 import {TextButton} from '../../textButton'
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 import './GetStarted.css'
 
 const GetStarted = (params) => {
-    const apikey = process.env.REACT_APP_FACEBOOK_APP_ID
-
-    const responseFacebook = (response) => {
-        let {picture} = response
-        console.log(response,picture);
-    }
-
     return (
         <div className="start" id="started">
             <h1>Whatever Just Give Me The Goods</h1>
