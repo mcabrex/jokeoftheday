@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,21 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --color-pink-a: #f72585;
+  --color-pink-b: #f15c9f;
+  --color-lightblue-a: #4cc9f0;
+  --color-lightblue-b: #8ce4ff;
+  --color-blue-a: #4361ee;
+  --color-blue-b:rgb(125, 149, 255);
+  --color-white: #e6e6e6;
+  --color-black: #18191A;
+}
+
+.quote {
+  font-style: italic;
+  margin: 5%;
+  font-size: 1.15rem;
 }

@@ -1,0 +1,24 @@
+.how {
+    height: 40vh;
+    padding: 10vh 5vw;
+    color: #18191A;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.how-content{
+    width: 30vw;
+    padding: 2.5vh;
+    max-height: 100%;
+    overflow: auto;
+}
+
+.how-img {
+    height: 100%;
+    max-width: 40vw;
+}
+
+.how-name {
+    color: var(--color-pink-a);
+}

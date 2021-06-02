@@ -1,0 +1,33 @@
+nav {
+    padding: 12.5px;
+    background-color: var(--color-pink-a);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;    
+}
+
+nav li a {
+    padding: 5px 7.5px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+nav li :hover {
+    background-color: var(--color-pink-b);
+}
+
+.nav-home {
+    font-weight: bold;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+}
+
+.push {
+    margin-left: auto;
+}
+

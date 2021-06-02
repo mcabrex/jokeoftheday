@@ -1,0 +1,20 @@
+.start {
+    height: 100%;
+    padding: 5vh 5vw 15vh;
+    background-color: var(--color-blue-a);
+    color: var(--color-white);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.start h1 {
+    width: 45%;
+    text-align: center;
+}
+
+.start p {
+    margin: 5%;
+    width: 50%;
+}
