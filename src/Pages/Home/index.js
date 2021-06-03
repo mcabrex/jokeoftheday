@@ -1,4 +1,4 @@
-import {Intro,AboutUs,HowItWorks,GetStarted} from '../../sections'
+import {Intro,AboutUs,HowItWorks,GetStarted,Footer} from '../../sections'
 
 
 const Home = (props) => {
@@ -9,6 +9,7 @@ const Home = (props) => {
           <AboutUs />
           <HowItWorks />
           <GetStarted />
+          <Footer />
         </div>
       );
 }

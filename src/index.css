@@ -36,17 +36,18 @@ code {
 
 .fb-login {
   cursor: pointer;
-  background-color: var(--color-pink-a);
   font-size: 1.25rem;
-  border-style: none;
+  background-color: white;
+  color: var(--color-pink-a);
+  border-style: solid;
+  border-color: var(--color-pink-a);
   padding: 1rem;
   font-weight: bold;
-  color: var(--color-white);
   border-radius: 12.5px;
 }
 
 .fb-login:hover {
   transform: scale(1.05);
 	transition: 0.15s;
-  box-shadow: 0px 1px 10px 1px var(--color-blue-a);
+  box-shadow: 0px 1px 10px 1px var(--color-pink-b);
 }

@@ -1,0 +1,17 @@
+.footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: var(--color-pink-a);
+    color: var(--color-white);
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer a {
+    text-decoration: none;
+}

@@ -6,7 +6,7 @@ import {
   Link,
   Redirect
 } from "react-router-dom";
-import {NavBar} from './sections'
+import {NavBar,Footer} from './sections'
 import {Home,JokeIntro} from './Pages'
 
 const Routes = (params) => {

@@ -1,5 +1,6 @@
 .joke-content {
-    margin: 5vh 0;
+    height: 95vh;
+    padding: 5vh 0;
     display: flex;
     justify-content: start;
     align-items: center;
