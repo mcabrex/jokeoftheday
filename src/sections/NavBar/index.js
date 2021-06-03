@@ -8,7 +8,7 @@ const NavBar = ({home,...props}) => {
       return (
         <nav>
             <ul className="main-nav">
-                <li><a className="nav-home" href="/home">Home</a></li>
+                <li><a className="nav-home" href="/">Home</a></li>
                 {
                     location.pathname !== '/thejoke' &&
                     <React.Fragment>
