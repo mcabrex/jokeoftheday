@@ -4,7 +4,6 @@ import './NavBar.css'
 
 const NavBar = ({home,...props}) => {
     const location = useLocation();
-    console.log(location.pathname)
       return (
         <nav>
             <ul className="main-nav">
