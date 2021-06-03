@@ -1,7 +1,7 @@
 import Home from './Home'
-import JokeIntro from './JokeIntro'
+import Joke from './Joke'
 
 export {
     Home,
-    JokeIntro
+    Joke
 }

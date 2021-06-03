@@ -1,9 +1,9 @@
 import FacebookLogin from 'react-facebook-login';
 
-import './JokeIntro.css'
-import Secure from './secure.svg'
+import './Intro.css'
+import Secure from '../secure.svg'
 
-const JokeIntro = (params) => {
+const Intro = (params) => {
     const apikey = process.env.REACT_APP_FACEBOOK_APP_ID
 
     const responseFacebook = (response) => {
@@ -12,7 +12,7 @@ const JokeIntro = (params) => {
     }
 
     return(
-        <div className="joke-content">
+        <div className="intro-content">
             <h1>Just One Thing</h1>
             <img src={Secure}/>
             <p>In order to create the perfect joke, Joke of the Day uses our complex algorithms in combination with your social media data in order create the ideal experience. And don't worry all our processes our completely serverless. This means that we never store or send your data anywhere else. It's all done by the machine, we never see it. Your secret's safe with us 😉.</p>
@@ -28,4 +28,4 @@ const JokeIntro = (params) => {
     )
 }
 
-export default JokeIntro
+export default Intro

@@ -1,4 +1,4 @@
-.joke-content {
+.intro-content {
     height: 95vh;
     padding: 5vh 0;
     display: flex;
@@ -7,19 +7,19 @@
     flex-direction: column;
 }
 
-.joke-content h1 {
+.intro-content h1 {
     color: var(--color-pink-a);
     font-size: 2.25rem;
     text-align: center;
     width: 50%;
 }
 
-.joke-content p {
+.intro-content p {
     text-align: center;
     padding: 0 2.5vh;
     width: 75%;
 }
 
-.joke-content img {
+.intro-content img {
     height: 30vh;
 }
